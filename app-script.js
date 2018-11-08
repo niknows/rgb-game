@@ -26,6 +26,7 @@ function init () {
         }  
     
     for (var i=0; i<squares.length; i++){
+        
     squares[i].addEventListener("click", function(){
     var clickedColor = this.style.backgroundColor;
     if(clickedColor === pickedColor){
@@ -33,6 +34,7 @@ function init () {
     resetButton.textContent = "Jogar novamente?";
     changeColors(clickedColor);
     h1.style.backgroundColor = clickedColor;
+        
 }
     else{
         
