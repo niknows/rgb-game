@@ -70,9 +70,11 @@ function pickColor(){
 }
 
 function generateRandomColors(num){
+    
     var arr = [];
     for(var i = 0; i <num; i++){
         arr.push(randomColor());
+        
     }
     return arr;    
 }
