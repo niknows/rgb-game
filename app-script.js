@@ -35,8 +35,10 @@ function init () {
     h1.style.backgroundColor = clickedColor;
 }
     else{
+        
     this.style.backgroundColor = "#232323";
     messageDisplay.textContent = "Tente novamente";
+        
             }
         });
     }
